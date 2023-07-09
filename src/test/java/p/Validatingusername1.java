@@ -80,6 +80,7 @@ public class Validatingusername1 extends Base  {
 	@AfterClass
     public void closePoilicyBazaar() throws InterruptedException
 	{
+		Utility.wait(4000);
 	closeBrowser();
 	}
 }

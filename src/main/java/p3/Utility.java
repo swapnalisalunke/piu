@@ -26,7 +26,7 @@ public class Utility {
 	IOException
 	{
 	File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-	File dest= new File("C:\\Users\\hp\\eclipse-workspace\\piu\\screenshot"+fileName+".png");
+	File dest= new File("C:\\Users\\hp\\git\\repository\\piu\\screenshot"+fileName+".png");
 	FileHandler.copy(src, dest);
 	Reporter.log("taking screenshot", true);
 	Reporter.log("screenShot location is ... "+dest, true);
